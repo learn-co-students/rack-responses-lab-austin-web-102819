@@ -1,3 +1,4 @@
+# My initial attempt at parsing the time.now output. I didn't realize i could call .hour!
 class Application
     def call(env)
         resp= Rack::Response.new
